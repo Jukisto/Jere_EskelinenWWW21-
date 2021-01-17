@@ -6,103 +6,94 @@
     <meta charset="UTF-8">
     <meta name="keywords" content="html, css">
     <meta name="description" content="Site for my school project. Includes THIS tag for search engines.">
+    <link rel="stylesheet" href="styling.css">
     <title>Funi page</title>
 </head>
 
-<style>
-    ul {
-        list-style-type: none;
-        position: center;
-        width: 800px;
-        margin: center;
-        padding: center;
-        overflow: hidden;
-        background-color: gray;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a {
-        display: block;
-        color: rgb(0, 0, 0);
-        text-align: center;
-        padding: 16px 30px;
-        text-decoration: none;
-    }
-    
-    li a:hover {
-        background-color: rgb(0, 115, 160);
-        color: white;
-    }
-    
-    .Header {
-        background-image: url("./images/bg2.jpg");
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/bg2.jpg");
-        background-color: black;
-        background-repeat: no-repeat;
-    }
-    
-    .Navigator {
-        background-color: black;
-        background-repeat: no-repeat;
-        left: center;
-        position: absolute;
-        margin: auto;
-    }
-    
-    .Content {
-        text-align: center;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: white;
-    }
-    
-    h1,
-    h2,
-    h3 {
-        color: gray
-    }
-    
-    p {
-        color: gray
-    }
-</style>
 
 
 <body>
 
 
-    <div class="Header">
+
+
+
+    <!-- Yläpalkki -->
+    <div class="navi">
+
+
+        <div class="navimiddle">
+            <a href="./index.html">Etusivu</a>
+        </div>
+
+
+        <a href="./projektit.html">Projektit</a>
+        <a href="https://www.linkedin.com/in/jere-eskelinen-655100105">Ota yhtettä</a>
+
+
+        <div class="naviright">
+            <a href="https://www.facebook.com/jere.eskelinen.9">Jere Eskelinen</a>
+        </div>
+
     </div>
 
 
-    <div class="Navigator">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#about">About</a></li>
-        </ul>
+    <!-- Yläbanneri -->
+    <div class="banneri">
+
+        <img src=".\images\background1.jpg" alt="Banneri">
+
+    </div>
+
+    <div class="otsikko">
+        <h1>Jere's pets!</h1>
+    </div>
+
+    <div class="alusta">
+        <!-- Yksi kissoistani -->
+        <div class="tuhkis">
+
+            <img src=".\images\tuhkis.jpg" alt="Kuva Tuhkiksesta!">
+
+        </div>
+
+        <div class="kontentti">
+
+            <h1><u>Tuhkis</u></h1>
+            <p>
+                Kuva Tuhkiksesta! <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b> Consequuntur quis vitae temporibus, magnam accusamus magni voluptatibus fuga corporis nihil, non asperiores suscipit inventore harum ipsam veniam quasi quod
+                ad numquam.
+            </p>
+
+        </div>
+        <div class="laku">
+            <figure>
+                <img src=".\images\laku.jpg" alt="Kuva Lakusta!">
+                <figcaption>Laku!</figcaption>
+            </figure>
+        </div>
+
+        <div class="kontentti">
+
+            <h1><u>Laku</u></h1>
+            <p>
+                Kuva lakusta! <i>Lorem ipsum ITALIC dolor sit amet consectetur adipisicing elit.</i> Consequuntur quis vitae temporibus, magnam accusamus magni voluptatibus fuga corporis nihil, non asperiores suscipit inventore harum ipsam veniam quasi
+                quod ad numquam.
+            </p>
+
+        </div>
     </div>
 
 
-    <div class="Content">
-        <h1>otsiko in h1</h1>
-        <h2>otsiko in h2</h2>
-        <h3>otsiko in h3</h3>
-        <p>Lorem ipsum</p>
-        <p>Uusi tekstiviite turhaan jargoniin, <b>niiku tämä</b> ja tämä?</p>
-        <p>Links to some external sites:
-            <a href="https://www.youtube.com/channel/UC0hVgvSgGCZX7xe2I16g76A">External site 1</a>
-            <a href="https://www.wowhead.com/">External site 2</a>
-            <a href="https://raider.io/characters/eu/outland/L%C3%A4%C3%A4hpuuhh">External site 3</a>
-        </p>
-        <img src="images\omg.jpg" alt="Picture of oh my god" style="width:128px;height:128px;">
+
+
+
+    <div class="osoite">
+
+        <address>Hämeen ammattikorkeakoulu HAMK PL 230 13101 Hämeenlinna</address>
+
     </div>
+
 
 </body>
 

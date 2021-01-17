@@ -1,0 +1,122 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    background: linear-gradient(to top right, #000000 -16%, #5f5f5f 115%);
+    background-repeat: no-repeat;
+}
+
+.navi {
+    width: auto;
+    position: relative;
+    overflow: auto;
+    background: linear-gradient(to left, #000000 -16%, #9c9c9c 115%);
+}
+
+.navi a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navi a:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+}
+
+.navimiddle a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.naviright {
+    float: right;
+}
+
+.banneri img {
+    width: 100%;
+    opacity: 0.7;
+    margin: 0px 0px 10px;
+}
+
+.alusta {
+    margin: auto;
+    width: 1200px;
+}
+
+.tuhkis {
+    border: 5px solid white;
+    position: relative;
+    margin: 20px 30px;
+    float: left;
+}
+
+.tuhkis img {
+    overflow: auto;
+    height: 250px;
+}
+
+.kontentti {
+    border: 5px solid white;
+    color: white;
+    height: 350px;
+    /*font-size: 1vw; */
+    /*This line of code will resize the text according to the view-width value of the browser window. Dont need it here. Saving for later use */
+    margin: 20px 20px 20px;
+    text-align: center;
+    position: sticky;
+}
+
+.laku {
+    border: 5px solid white;
+    position: relative;
+    margin: 30px;
+    float: right;
+    height: 285px;
+}
+
+.laku img {
+    overflow: auto;
+    height: 250px;
+}
+
+.osoite {
+    color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.laku figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+}
+
+.laku figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+.otsikko {
+    color: white;
+    text-align: center;
+}
+
+.video {
+    width: 1200px;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
